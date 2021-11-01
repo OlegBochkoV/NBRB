@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NBRB</string>
+    <string name="currency_rate">Курсы валют</string>
+    <string name="setting_rate">Настройка валют</string>
+</resources>
