@@ -62,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
                 setTextError("Не удалось получить курсы валют.");
                 return;
             }
-            imageButton_setting.setVisibility(View.VISIBLE);
 
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
+                    imageButton_setting.setVisibility(View.VISIBLE);
                     recyclerView.setLayoutManager(llm);
                     MyAdapter adapter = new MyAdapter(rates1, rates2);
                     recyclerView.setAdapter(adapter);
